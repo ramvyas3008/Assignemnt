@@ -1,0 +1,92 @@
+<html>
+<head>
+    <title>
+	College Form
+    </title>
+</head>
+<body>
+    <h1>Application Form</h1>
+	<br/>
+    <form>
+	Full Name: <input type="name" placeholder="Enter full name" name="studentname" required/>
+		
+	&emsp;
+	&emsp;
+	
+	Email Address: <input type="email" placeholder="Enter email" name="emaddress" pattern=".+@gmail\.com" required/>
+	<br/>
+	<br/>
+	Select Course: 
+	<select name="courses" required>
+		<!-- <option value="disabled selected">Select Course</option> -->
+		<option selected disabled>Select Course</option>
+		<option name="Full Stack Develpoer" value="1">Full Stack Develpoment</option>
+		<option name="Advance Web Development" value="2" >Advance Web Development</option>
+	</select>
+	&emsp;
+	&emsp;
+	Father's Name: <input type="name" placeholder="Enter your name" name="fathername" required/>
+	&emsp;
+	&emsp;
+	<br/>
+	<br/>
+	Gender: 
+	<input type="radio" id="m" value="male" name="gender" />
+	<label for="Male">Male</label>
+	<input type="radio" id="f" value="female" name="gender"/>
+	<label for="Female">Female</label>
+	<input type="radio" id="o" value="other" name="gender"/>
+	<label for="Other">Other</label>
+    </select>
+	&emsp;
+	&emsp;
+	DOB: 
+	<input type="date" placeholder="Enter you DOB" name="dob" required/>
+	<br/>
+	<br/>
+	Contact Number: 
+	<input type="text" max="4" placeholder="Enter mobile number" name="contnumb" maxlength="10" minlength="10" required/>
+	&emsp;
+	&emsp;
+	Highest Degree: 
+	<select name="degree" required>
+		<option value="disabled selected">Select Highest Degree</option>
+		<option value="d1">B.Tech</option>
+		<option value="d2">M.Tech</option>
+		<option value="d3">B.SC</option>
+		<option value="d4">M.SC</option>
+	</select>
+	<br/>
+	<br/>
+	Year of Completion: 
+	<select name="yearcom" required>
+		<option value="disabled selected">Select year of completion</option>
+		<option name="1">2021</option>
+		<option name="2">2020</option>
+		<option name="3">2019</option>
+		<option name="4">2018</option>
+	</select>
+	&emsp;
+	
+	Programing Skills: 
+	<select name="yearcom" required>
+		<option value="disabled selected">Select programing skill level</option>
+		<option name="1">No Coding Skills</option>
+		<option name="2">Basic Coading Skills</option>
+		<option name="3">Intermndiate Coading Skills</option>
+		<option name="4">Good Coading Skills</option>
+	</select>
+	<br/>
+	<br/>
+	Address: <textarea placeholder="Enter you Address" name="address" rows="4" cols="70" name="homeadd" required/></textarea>
+	<br/>
+	<br/>
+	<input type="checkbox" name="tnc" value="1" required>
+	By signing up, you agree to the Terms and Conditions of Geekster (QuantumBit technologies Pvt. Ltd)*.
+	</input>
+	<br/>
+	<br/>
+	<input type="submit"/>
+    </form>
+</body>
+</html>
