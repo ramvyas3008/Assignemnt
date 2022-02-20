@@ -1,0 +1,54 @@
+.nthcolor:nth-child(3n){
+    background-color:darkgrey;
+}
+
+.nthcolor:nth-child(3n+1){
+    background-color:lightgray;
+}
+
+.nthcolor:nth-child(3n+2){
+    background-color:gray;
+    
+}
+
+.head{
+    background-color: rgb(104, 104, 158);
+}
+
+.tableborder{
+    border: 1px;
+}
+
+table ,th, td{
+    border: 1px solid black;
+}
+
+.margin{
+    margin: 0px;
+}
+
+.flexconcept{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fakebuttonwithanchor{
+    
+    font-size: 30;
+    background-color:#29b475;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.fakebuttonwithanchor:hover{
+    color:wheat;
+    background-color: #10973f;
+}
+
+.button{
+    margin-top: 30px;
+    margin-left: 15px;
+}
