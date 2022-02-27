@@ -1,0 +1,68 @@
+.body{
+    margin: 0px;
+    margin-left: 50px;
+}
+
+.logindetails{
+    float: left;
+}
+
+.loginpageimg{
+    float: right;
+}
+
+.img_login_page{
+    width: 800px;
+    height: 710px;
+}
+
+.headings{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.loginscreenlogo{
+    margin-top: 20px;
+}
+
+.labelfont{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.forminput{
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 5px;
+    border-color: rgb(202, 202, 202);
+    height: 30px;
+}
+
+.sign_google_anchr{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(202, 202, 202);
+    border-radius: 8px;
+    padding: 15px;
+    
+    
+}
+
+.sign_email_anchr{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70%;
+    
+}
+
+.forget_paswd{
+    text-decoration: none;
+    margin-left: 20px;
+}
+.loginbtn{
+    width: 250px;
+    border-radius: 5px;
+    height: 40px;
+    color: white;
+    background-color: rgb(38, 38, 240);
+}
