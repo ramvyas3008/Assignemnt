@@ -1,0 +1,51 @@
+.heading{
+    text-align: center;
+    background-color: gainsboro;
+}
+
+.subheading{
+    color: red;
+    background-color: azure;
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.scoreboard{
+    font-weight: bold;
+    color: rgb(104, 101, 101);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.scoreboarddiv{
+    text-align: center;
+}
+
+body img{
+    height: 150px;
+    width: 150px;
+}
+
+.firstdiv{
+    border: solid rgb(218, 214, 214);
+    display: inline-block;
+}
+
+.seconddiv{
+    border: solid rgb(218, 214, 214);
+    display: inline-block;
+    float: right;
+}
+
+.scorefield{
+    margin-top: 150px;
+    width: 150px;
+    border-radius: 5px;
+    border-color: red;
+}
+
+.winnerplyr{
+    font-weight: bold;
+    margin-left: 630px;
+    
+}
