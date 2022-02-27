@@ -1,0 +1,34 @@
+.header{
+    text-align: center;
+    height: 80px;
+}
+
+.header nav a{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.coursesmenu{
+    display: inline;
+}
+
+.coursesmenu:hover{
+    color: forestgreen;
+    text-decoration: underline;
+}
+
+.coursesmenusubitems{
+    display: none;
+}
+
+.coursesmenu:hover > .coursesmenusubitems{
+    display: initial;
+}
+
+.coursesmenusubitems2{
+    display: none;
+}
+
+.coursesmenusubitems1:hover > .coursesmenusubitems2{
+    display: initial;
+}
