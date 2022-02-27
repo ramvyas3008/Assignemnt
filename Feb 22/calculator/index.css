@@ -1,0 +1,42 @@
+.bodycls{
+    margin: 0px;;
+}
+
+/*
+.maindiv{
+    border: solid black;
+    width: 230px;
+}
+*/
+
+
+.inpttextarea{
+    width: 230px;
+    margin-bottom: 10px;
+    border: solid gray;
+
+}
+
+.yellowclrbtn{
+    background-color: yellow;
+    font-weight: bold;
+    
+}
+
+.blackbtn{
+    background-color: black;
+    color: white;
+}
+
+
+.maindiv > div{
+    width: 300;
+    height: 30px;
+}
+
+.maindiv > div > button{
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 41px;
+    height: 25px;
+}
