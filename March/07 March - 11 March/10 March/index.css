@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier ;
+    margin: 240px;
+    background: linear-gradient(to top left, #b284ee , #a38793, #1f8ec2);
+}
+
+.timerdiv{
+    color: #31125a;
+    font-weight: bolder;
+}
+   
+.btn{           
+    color: #0f080b; 
+    background-color: #30c067;
+}
