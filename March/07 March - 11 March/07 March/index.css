@@ -1,0 +1,105 @@
+.body_class{
+    background-color: whitesmoke;
+
+}
+
+.body_class img{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+
+}
+
+.sub_headings a{
+    font-size:medium;
+    color:cadetblue;
+    font-weight: bold;   
+    text-decoration: none; 
+}
+
+.main_div_of_first{
+    background-color: rgb(192, 192, 192);
+    display: inline-block;
+    height: 600px;
+    width: 250px;
+    border-radius: 5px;
+   
+}
+
+.fist_container_div{
+    display: inline-block;
+    height: 240px;
+    width: 220px;
+    background-color: white;
+    margin-left: 8px;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.all_container_div > .main_div_of_first > span{
+    font-weight: bold;
+    margin-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.all_container_div > .main_div_of_first > button{
+    margin-left: 50%;
+    border-radius: 5px
+    
+}
+
+.all_container_div > .main_div_of_first > .fist_container_div > button{
+    border-radius: 5px;
+    margin-left: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.all_container_div > .main_div_of_first > .fist_container_div > h5{
+    background-color: yellow;
+    height: 20px;
+    width: 100px;
+
+}
+
+.all_container_div > .main_div_of_first > .fist_container_div > span{
+    font-weight: bold;
+}
+
+.fist_sub_container_div{
+    margin-top: 35px;
+    background-color: white;
+    height: 240px;
+    width: 220px;
+    background-color: white;  
+    border-radius: 3px;
+    padding: 3px;
+
+}
+
+.all_container_div > .main_div_of_first > .fist_container_div > .fist_sub_container_div > button{
+    border-radius: 5px;
+    margin-left: 110px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.all_container_div > .main_div_of_first > .fist_container_div > .fist_sub_container_div > span{
+    font-weight: bold;
+}
+
+.all_container_div > .main_div_of_first > .fist_container_div > .fist_sub_container_div > h5{
+    background-color: orangered;
+    height: 20px;
+    width: 100px;
+
+}
+
+.addcart_btn{
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
